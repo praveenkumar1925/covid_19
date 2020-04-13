@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+
+
+
+	<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<!-- **********waypoint********** -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="        sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous">   
+  </script>
+<!-- ***********counter up jquery plugin********** -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+<!-- <link rel="stylesheet" type="text/css" href="style.css">
+ -->		
+
+ <style type="text/css">
+  *{margin:0; padding: 0; box-sizing: ; border-box: ; font-family: 'Muli', sans-serif; }
+  .nav_style{
+    /*background-color: #a29bfe!important;*/
+    background-color: #000050!important;
+
+  }
+  .nav_style a{
+    color: white;
+    
+  }
+  .rightside h1{
+    font-size: 3rem;
+  }
+  .coronaa img{
+        animation: gocorona 3s linear infinite;
+  }
+  @keyframes gocorona {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /*@keyframe*/ /*.beatt img{
+    animation: heartbeat 5s linerar infinite;
+  }heartbeat {
+    0% 
+    { 
+      transform: scale(.75); 
+    }
+    20% 
+    { 
+      transform: scale(1); 
+    }
+    40% 
+    { 
+      transform: scale(.75); 
+    }
+    60% 
+    { 
+      transform: scale(1); 
+    }
+    80% 
+    { 
+      transform: scale(.75); 
+    }
+    100% 
+    { 
+      transform: scale(.75); 
+    }
+
+/*  }*/
+  /*@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}*/
+.container_R {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.beatt {
+  margin: 5em;
+  animation: .8s infinite beatHeart;
+}
+
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/*************corona updates***************/
+.corona_update{
+  margin: 0 0 30px 0;
+
+}
+.corona_update h3{
+  /*color: #ff7675;*/
+    color: #000050;
+  
+
+}
+.corona_update h1{
+  font-size: 2rem; text-align: center;
+  
+ 
+}
+.textt p{
+  /*color: #ff7675;*/
+    color: #000050;
+  
+
+}
+.entertenment h6{
+  /*color: #ff7675;*/
+    color: #000050;
+  
+
+}
+.live {
+  /*color: #ff7675;*/
+    color: #000050;
+  
+
+}
+.redd {
+  
+    color:  #FF0000;
+  }
+  .greenn {
+  
+    color: #008000;
+  }
+  .activee {
+  
+    color: #52e6e2;
+  }
+  .airpot {
+  
+    color: #000050;
+  }
+
+
+
+
+
+.sub_section{
+  background-color: #fafbfd;
+}
+
+.top{
+    /*background-color: #a29bfe!important;*/
+    background-color: #000050!important;
+
+  }
+  .top a{
+    color: light;
+    
+  }
+
+.update{
+    /*background-color: #a29bfe!important;*/
+    background-color: #000050!important;
+
+  }
+  .update a{
+    color: light;
+    
+  }
+
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+
+
+</style>
+		
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg nav_style p-3" id="top">
+   <a class="navbar-brand pl-5" href="#">COVID-19</a>
+    <button class="navbar-toggler badge-light " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="  navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto pr-5 text-capitalize">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutid">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutidd">symptoms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#prevention">prevention</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:pk90023@gmail.com?cc=ncov2019@gmail.com&bcc=ncov2019@gmail.com&subject=Today's %20 coronavirus(COVID-19) %20 patient">contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#livetv">Live TV</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="pk.html">aboutUXD</a>
+                </li>
+      
+     
+          </ul>
+    
+      </div>
+</nav>
+<!-- 1st END************* -->
+<div class="main_header">
+	<div class="row w-100 h-100">
+		<div class=" col-lg-5 col-md-5 col-12 order-lg-1 order-2">
+			<div class=" container_R w-100 h-100 d-flex justify-content-center align-items-center ">
+				<img src="images/eksath.jpg" width="300" height="300" class="beatt" />
+			</div>
+			
+		</div>
+		<div class=" col-lg-7 col-md-7 col-12 order-lg-2 order-1 w-100 h-100 d-flex justify-content-center align-items-center p-5">
+			<div class="rightside">
+				<h2>
+					Let's Stay Safe & Fight Together<br>Against 
+          Cor<span class="coronaa">
+						<img src="images/4c.png">
+					   </span>na Virus
+				</h2>
+				
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+<!-- *************************corona latest updates**************************** -->
+ <section class="corona_update">
+ 	    <div class="mb-3">
+ 		     <h3 class="text-center text-uppercase"><b>covid-19 updates</b></h3>
+ 			</div>
+ 	<div class=" d-flex justify-content-around align-items-center">
+ 	   <div>
+ 		    <h1 class="count airpot"> 15,24,266</h1>
+ 		      <p>Passengers screened at Airport</p>
+ 	   </div>
+ 	   <div>
+ 		   <h1 class="count activee">8356</h1>
+ 		    <p>Active COVID-19 cases</p>
+ 	   </div>
+ 	   <div>
+ 		   <h1 class="count greenn">857</h1>
+ 		   <p>Cured cases</p>
+ 	  </div>
+ 	  <div>
+ 		  <h1 class="count redd">335</h1>
+ 		   <p>Death cases</p>
+ 	 </div>		
+
+ 	</div>
+
+ </section>
+ <!-- ****************about section*************** -->
+ <div class="container-fluid  pt-5 pb-5" id="aboutid">
+ 	<div class="section_header text-center mb-5 mt-5">
+ 		<h1 class="live"> About Covid-19</h1>
+ 		
+ 		
+ 	</div>
+ 	<div class="row pt-2 ml-3" >
+ 		<div class="col-lg-5 col-md-6 col-12">
+ 			<img src="images/cccccc.png" style="border-radius: 25%;" class="img-fluid pt-4">
+ 			
+ 		</div>
+ 		<div class="col-lg-6 col-md-6 col-12">
+ 			<h2 style="text-align: center;">What is COVID-19<br>(Corona-Virus)</h2>
+ 			<p> Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.</p>
+ 			<p>
+ 				The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.
+ 			</p>
+ 			<h5>HOW IT SPREADS</h5>
+ 			<p>
+ 				Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.
+ 			</p>
+ 			
+ 		</div>
+ 		
+ 	</div>
+
+ 	
+ </div>
+ <!-- **************corona symptoms**************** -->
+  <div class="container-fluid pt-5 pb-5" id="aboutidd">
+ 	<div class="section_header text-center mb-5 mt-5">
+ 		<h1 class="live"> Corona Virus Symptoms</h1>
+ 	</div>
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-4 col-md-4 col-12">
+ 				<figure class="text-center">
+ 				<img src="images/symptoms-cough.png" class="img-fluid">
+ 				<figcaption class="text-center">Cough</figcaption>
+ 				</figure>
+ 				
+ 			</div>
+ 			<div class="col-lg-4 col-md-4 col-12">
+ 				<figure class="text-center">
+ 				<img src="images/symptoms-fever.png" class="img-fluid">
+ 				<figcaption class="text-center">Fever</figcaption>
+ 				</figure>
+ 				
+ 			</div>
+ 			<div class="col-lg-4 col-md-4 col-12">
+ 				<figure class="text-center">
+ 				<img src="images/symptoms-shortnessOfBreathh.png" class="img-fluid">
+ 				<figcaption class="text-center">Shortness of breath</figcaption>
+ 				</figure>
+ 				
+ 			</div>
+ 			
+ 			
+ 		</div>
+ 		
+ 	</div>
+ </div>
+
+ <!-- **************Prevention against corona virus************************ -->
+ <div class="container-fluid sub_section pt-5 pb-5" id="prevention">
+ 	<div class="section_header text-center mb-5 mt-5">
+ 		<h1>6 Steps  Prevention Against Coronavirus</h1>
+ 	</div>
+ 	<div class="container">
+ 		<div class="row">
+ 				<!-- ***** -->
+ 			<div class=" col-lg-4 col-md-4 col-6">
+ 				<div class="row">
+
+ 				<div class="col-lg-4 col-md-4 col-6"> 
+ 					<figure>
+ 				       <img src="images/washing_handss.jpg" class="img-fluid" width="90" height="90" style="border-radius: 50%;">
+ 				 	</figure>
+ 				 	 </div>
+
+ 				       <div class="col-lg-8 col-md-8 col-12">
+ 				       	<p>Wash your hands regularly for 20 seconds, with soap and water or alcohal-based hand rub.</p>
+ 				       </div> 				         				       
+ 				         
+	            </div>
+
+            </div>
+            <div class=" col-lg-4 col-md-4 col-6">
+ 				<div class="row">
+ 					<div class="col-lg-4 col-md-4 col-6"> 
+ 					<figure>
+ 				       <img src="images/cover_nose.jpg" class="img-fluid" width="90" height="90" style="border-radius: 50%;">
+ 				 	</figure>
+ 				 	 </div>
+
+ 				       <div class="col-lg-8 col-md-8 col-12">
+ 				       	<p>Cover your nose and mouth with a diposable tissue or flexed elbow when you cough or sneeze.</p>
+ 				       </div>
+ 				 </div>       
+
+            </div>      
+            <div class=" col-lg-4 col-md-4 col-6">
+ 				<div class="row">
+ 					<div class="col-lg-4 col-md-4 col-6"> 
+ 					<figure>
+ 				       <img src="images/close_contact.png" class="img-fluid" width="90" height="90">
+ 				 	</figure>
+ 				 	 </div>
+
+ 				       <div class="col-lg-8 col-md-8 col-12">
+ 				       	<p>Avoid close contact <br>(1m meter or 3 feet) with people who are unwell.</p>
+ 				       </div>
+ 				 </div>       
+
+            </div>
+            <div class=" col-lg-4 col-md-4 col-6">
+ 				<div class="row">
+ 					<div class="col-lg-4 col-md-4 col-6"> 
+ 					<figure>
+ 				       <img src="images/stayathomee.jpg" class="img-fluid" width="90" height="90" style="border-radius: 50%;" >
+ 				 	</figure>
+ 				 	 </div>
+
+ 				       <div class="col-lg-8 col-md-8 col-12">
+ 				       	<p>Stay home and self-isolate from others in the household if you feel unwell.</p>
+ 				       </div>
+ 				 </div>       
+
+            </div>
+            <div class=" col-lg-4 col-md-4 col-6">
+ 				<div class="row">
+ 					<div class="col-lg-4 col-md-4 col-6"> 
+ 					<figure>
+ 				       <img src="images/radioo.jpg" class="img-fluid" width="90" height="90">
+ 				 	</figure>
+ 				 	 </div>
+
+ 				       <div class="col-lg-8 col-md-8 col-12">
+ 				       	<p>Stay informed by watching news & follow the recommended practices. </p>
+ 				       </div>
+ 				 </div>       
+
+            </div> 
+            <div class=" col-lg-4 col-md-4 col-6">
+ 				<div class="row">
+ 					<div class="col-lg-4 col-md-4 col-6"> 
+ 					<figure>
+ 				       <img src="images/goh.jpg" class="img-fluid" width="90" height="90" style="border-radius: 50%;">
+ 				 	</figure>
+ 				 	 </div>
+
+ 				       <div class="col-lg-8 col-md-8 col-12">
+ 				       	<p>If you have fever, cough and difficulty breathing, seek medical care early.</p>
+ 				       </div>
+ 				 </div>       
+
+            </div>      
+     
+      	</div>
+ </div>
+</div>
+
+
+
+ 		<div class="container-fluid pt-2 pb-2" id="aboutid">
+ 	<div class="section_header text-center mb-5 mt-5 ">
+ 		<h1 class="live" id="livetv" ><b>Live TV News And Videos</b></h1>
+ 	</div>
+ 	<div class="container">
+ 		<div class="row">
+ 			
+ 				<!-- <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-12 mb-4">
+ 					              
+
+               <iframe class="embed-responsive-item" src="videos/What is CORONAVIRUS AND How to PROTECT YOURSELF.mp4" allowfullscreen>
+               	
+               </iframe>
+
+              </div> -->
+              <div class="embed-responsive embed-responsive-16by9">
+
+
+
+ 					         <embed height="90%" src="https://www.youtube.com/embed/Y9VgmhxtJFk"></embed>
+
+              </div>
+              
+ 		</div>
+ 		
+ 	</div>
+ 	<div class="container">
+ 		<div class="row pt-3">
+ 			
+ 				<!-- <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-12 mb-4">
+ 					              
+
+               <iframe class="embed-responsive-item" src="videos/What is CORONAVIRUS AND How to PROTECT YOURSELF.mp4" allowfullscreen>
+               	
+               </iframe>
+
+              </div> -->
+              <div class="embed-responsive embed-responsive-16by9">
+
+
+
+ 					        <!--  <embed height="80%" src="https://www.youtube.com/embed/Y9VgmhxtJFk"></embed> -->
+ 					        
+ 					         					         <embed height="90%" src="https://www.youtube.com/embed/wtU0zh9J2uc"></embed>
+
+
+
+              </div>
+              
+ 		</div>
+ 		
+ 	</div>
+  <div class="container">
+    <div class="row pt-3">
+      
+        <!-- <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-12 mb-4">
+                        
+
+               <iframe class="embed-responsive-item" src="videos/What is CORONAVIRUS AND How to PROTECT YOURSELF.mp4" allowfullscreen>
+                
+               </iframe>
+
+              </div> -->
+              <div class="embed-responsive embed-responsive-16by9">
+
+
+
+                  <!--  <embed height="80%" src="https://www.youtube.com/embed/Y9VgmhxtJFk"></embed> -->
+                  
+                                     <embed height="90%" src="https://www.youtube.com/embed/_QNJA_wFn-o"></embed>
+                                     
+
+
+              </div>
+              
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="row pt-3">
+      
+        <!-- <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-12 mb-4">
+                        
+
+               <iframe class="embed-responsive-item" src="videos/What is CORONAVIRUS AND How to PROTECT YOURSELF.mp4" allowfullscreen>
+                
+               </iframe>
+
+              </div> -->
+              <div class="embed-responsive embed-responsive-16by9">
+
+
+
+                  <!--  <embed height="80%" src="https://www.youtube.com/embed/Y9VgmhxtJFk"></embed> -->
+                                       <!-- **********india today********* -->
+                                     <embed height="90%" src="https://www.youtube.com/embed/l_NIgnb9J2g" ></embed>
+                                     
+
+
+              </div>
+              
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="row pt-3">
+      
+        <!-- <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-12 mb-4">
+                        
+
+               <iframe class="embed-responsive-item" src="videos/What is CORONAVIRUS AND How to PROTECT YOURSELF.mp4" allowfullscreen>
+                
+               </iframe>
+
+              </div> -->
+              <div class="embed-responsive embed-responsive-16by9">
+
+
+
+                  <!--  <embed height="80%" src="https://www.youtube.com/embed/Y9VgmhxtJFk"></embed> -->
+                                       <!-- **********republic india********* -->
+                                     <embed height="90%" src="https://www.youtube.com/embed/m_01tHikdy4"></embed>
+                                     
+
+
+              </div>
+              
+    </div>
+    
+  </div>
+  <!-- <div class="container">
+    <div class="row pt-3 mb-1">
+              <div class="embed-responsive embed-responsive-16by9" height="100%" width="50%">
+
+                     <embed  src="http://allindiaradio.gov.in/radio/live.php?channel=1"> </embed>
+                      </div>
+                </div>
+    
+  </div> -->
+      
+  <div class="container">
+    <div class="text-center pt-2 live">
+                        <h6><b> LIVE Entertainment TV</b> Scroll down to watch!</h6>              
+                      </div>
+    <div class="row">
+                      
+                      <div class="embed-responsive embed-responsive-16by9" height="100%" width="50%">
+                    
+                          <embed  src="https://www.9xm.in/live-tv/"> </embed>
+                      </div>
+                </div>
+    
+  </div>
+
+  <!-- **************MUSKURAYEGA INDIA**************** -->
+  <div class="container">
+    <div class="row pt-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                  https://www.youtube.com/watch?v=wh-sRmTWGTw
+                        <embed height="90%" src="https://www.youtube.com/embed/wh-sRmTWGTw"></embed>
+              </div>             
+    </div>
+    
+  </div>
+    
+ 		
+ </div>	
+ <!-- **************contact us************ -->
+ <div class="container-fluid pt-2 pb-2" id="aboutid">
+ 	       <div class=" text-center mb-5 mt-5">
+ 		       <h1>Contact Us </h1>
+      	 </div>
+ 	          <div class="container">
+ 		            <div class="row">
+ 			              <div class="col-lg-8 offset-lg-2 col-12">
+ 				                <form action="" method="post">
+                            <div class="form-group">
+                                 <label for="exampleFormControlInput1">Username</label>
+                                    <input type="text" class="form-control"  placeholder="name" autocomplete="off" name="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                    <input type="email" class="form-control" placeholder="name@example.com" required autocomplete="off" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Mobile</label>
+                                    <input type="number" class="form-control"  placeholder="mobile" autocomplete="off" name="mobile" required>
+                            </div>
+  <!-- *********checkbox******** -->
+                            <div class="form-group">
+  	                           <label>Select Symtoms </label><br>
+  	                           <div class="custom-control custom-checkbox  custom-control-inline text-capitalize">
+  		                         <input type="checkbox" class="custom-control-input" id="customcheckbox1" name="coronasym[]" value="cold">
+  		                         <label class="custom-control-label" for="customcheckbox1">cold</label>
+  	                           </div>
+  	                           <div class="custom-control custom-checkbox  custom-control-inline text-capitalize">
+  		                         <input type="checkbox" class="custom-control-input" id="customcheckbox2" name="coronasym[]" value="fever">
+  		                         <label class="custom-control-label" for="customcheckbox2">fever</label>
+  	                           </div>
+
+                               <div class="custom-control custom-checkbox  custom-control-inline text-capitalize">
+  		                         <input type="checkbox" class="custom-control-input" id="customcheckbox3" name="coronasym[]" value="breath">
+  		                         <label class="custom-control-label" for="customcheckbox3">difficulty in breath</label>
+  	                           </div>
+
+                               <div class="custom-control custom-checkbox  custom-control-inline text-capitalize">
+  		                         <input type="checkbox" class="custom-control-input" id="customcheckbox4" name="coronasym[]" value="tired">
+  		                         <label class="custom-control-label" for="customcheckbox4">feeling week</label>
+  	                           </div>
+                               </div> 
+
+ <!-- *********end check box******** -->
+                            <div class="form-group">
+                               <label for="exampleFormControlTextarea1">Example textarea</label>
+                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg">
+                                 
+                                 </textarea>
+                               </div>
+                            <div class="form-group">
+                                 <button type="submit" class="btn btn-primary" name="submit">submit</button>
+ 	                          </div>			
+ 
+                        </form>
+ 			       </div>
+ 	
+ 		      </div>
+ 	    </div>
+ 	</div>			
+ 	
+ 	<div class="text-center pb-5">				
+ 	              <a href="https://www.mygov.in/covid-19/" class="badge badge-info text-center ml-5 update"  style="text-align: center; font-size: 17px;"> Click here for official updates COVID-19</a>
+             	  <div class="p-3">
+ 	               <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" class="badge badge-info text-center ml-5"  style="text-align: center; font-size: 17px;">  Worldwide updates COVID-19</a>	
+              	</div>
+  </div>
+ 	<div class="text-center pb-5">				
+ 	              <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&pli=1" class="text-danger bg-white text-center ml-5 p-5"  style="text-align: center; font-size: 17px;"> Click here to install Aarogya Setu App. </a>	<br>
+ 	              <img src="images/arogyaa.jpg">
+ 	</div>
+  <div class="text-center pb-5"> 
+            <b>Call on Central Helpline Number for corona-virus...</b> <br>      
+            <a href="tel:+91-11-23978046">   <img src="images/phone.png"></a>
+  
+  </div>
+  <div class=" textt">
+              <p class="text-center">
+                   *Note:-In case of updated data refresh the page again<br> In case of contact use Contact menu only.<br>
+                   This site is designed only for awareness and self learning purpose nothing else.Designing of the site produce meaningfull awareness.<br> A small contribution...<br>
+<!--                    As a Indian Guy (IT Graduate) I've contributed myself in their (our Goverment) help through this site.
+ -->              </p>
+  </div>
+ 	<div class="text-center pb-5 ">				
+ 	         <a href="#top" class="badge badge-info text-center ml-5  top"  style="text-align: center; font-size: 22px;">Back to top</a>	
+ 	</div>
+ 
+
+
+ 	
+ <!-- *************footer************* -->
+ 		<footer class="mt-5">
+ 			           <div class="footer_style  text-center container-fluid text-light bg-dark">
+                               <p> 
+              	 				  UXD by praveenkr. from Begusarai,Patna(Bihar), @ New Delhi,INDIA. Email:pk90023@gmail.com, mo:8757511119.
+
+                               </p> 				
+ 			           </div>
+ 			
+ 		</footer>
+
+
+      <script type="text/javascript">
+	   $('.count').counterUp({
+      delay: 10,
+       time: 5000
+       });
+     </script>
+</body>
+</html>
+

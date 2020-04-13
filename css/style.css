@@ -1,0 +1,160 @@
+<style type="text/css">
+	*{margin:0; padding: 0; box-sizing: ; border-box: ; font-family: 'Muli', sans-serif; }
+	.nav_style{
+		/*background-color: #a29bfe!important;*/
+		background-color: #000050!important;
+
+	}
+	.nav_style a{
+		color: white;
+    
+	}
+	.rightside h1{
+		font-size: 3rem;
+	}
+	.coronaa img{
+        animation: gocorona 3s linear infinite;
+	}
+	@keyframes gocorona {
+		0% { transform: rotate(0); }
+		100% { transform: rotate(360deg); }
+	}
+	
+	/*@keyframe*/ /*.beatt img{
+		animation: heartbeat 5s linerar infinite;
+	}heartbeat {
+		0% 
+		{ 
+			transform: scale(.75); 
+		}
+		20% 
+		{ 
+			transform: scale(1); 
+		}
+		40% 
+		{ 
+			transform: scale(.75); 
+		}
+		60% 
+		{ 
+			transform: scale(1); 
+		}
+		80% 
+		{ 
+			transform: scale(.75); 
+		}
+		100% 
+		{ 
+			transform: scale(.75); 
+		}
+
+/*	}*/
+	/*@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}*/
+.container_R {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.beatt {
+  margin: 5em;
+  animation: .8s infinite beatHeart;
+}
+
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/*************corona updates***************/
+.corona_update{
+	margin: 0 0 30px 0;
+
+}
+.corona_update h3{
+	/*color: #ff7675;*/
+    color: #000050;
+	
+
+}
+.corona_update h1{
+	font-size: 2rem; text-align: center;
+	
+ 
+}
+
+
+
+.sub_section{
+	background-color: #fafbfd;
+}
+
+.top{
+		/*background-color: #a29bfe!important;*/
+		background-color: #000050!important;
+
+	}
+	.top a{
+		color: light;
+    
+	}
+
+.update{
+		/*background-color: #a29bfe!important;*/
+		background-color: #000050!important;
+
+	}
+	.update a{
+		color: light;
+    
+	}
+
+
+
+	html{
+		scroll-behavior: smooth;
+	}
+
+
+
+
+</style>
